@@ -92,13 +92,11 @@ img {
 /* HEADER */
 
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #ececec;
 }
 
 .header-content-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
@@ -124,6 +122,8 @@ img {
   line-height: 1.19;
   color: var(--logo-color);
   margin-right: 93px;
+  display: block;
+  padding: 24px 0 25px;
 }
 
 .logo-accent {
@@ -131,9 +131,11 @@ img {
 }
 
 .menu-list-link {
+  display: block;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 32px 0;
 }
 
 .current-link {
@@ -148,6 +150,7 @@ img {
 .contact-list {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .contact-list-item:not(:last-child) {
@@ -156,6 +159,8 @@ img {
 
 .contact-list-email,
 .contact-list-tel {
+  display: block;
+  padding: 32px 0;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -342,27 +347,23 @@ img {
   margin: 0 auto;
 }
 
-.footer-logo-container {
-  margin-bottom: 20px;
-}
-
 .logo-alt {
   color: var(--main-color-light);
   margin-right: 0;
-}
-
-.footer-adress-link-container {
-  margin-bottom: 10px;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .footer-adress-link {
   font-style: normal;
   line-height: 1.71;
   color: var(--main-color-light);
+  display: block;
+  margin-bottom: 9px;
 }
 
 .footer-contact-list-item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 .footer-contact-list-tel,
