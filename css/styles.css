@@ -174,6 +174,20 @@ img {
   color: var(--accent-color);
 }
 
+.contact-list-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  fill: var(--secondary-color);
+}
+
+.contact-list-email:hover .contact-list-icon-mail,
+.contact-list-email:focus .contact-list-icon-mail,
+.contact-list-tel:hover .contact-list-icon-tel,
+.contact-list-tel:focus .contact-list-icon-tel {
+  fill: var(--accent-color);
+}
+
 /* HERO */
 
 .hero-section {
@@ -379,7 +393,8 @@ img {
   fill: var(--main-color-light);
 }
 
-.card-social-list-item:hover .card-social-list-icon {
+.card-social-list-item:hover .card-social-list-icon,
+.card-social-list-item:focus .card-social-list-icon {
   fill: var(--main-color-light);
 }
 
@@ -420,7 +435,8 @@ img {
   fill: #afb1b8;
 }
 
-.client-section-list-item:hover .client-section-list-icon {
+.client-section-list-item:hover .client-section-list-icon,
+client-section-list-item:focus .client-section-list-icon {
   fill: var(--accent-color);
 }
 
@@ -520,7 +536,8 @@ img {
   fill: var(--main-color-light);
 }
 
-.footer-social-list-item:hover {
+.footer-social-list-item:hover,
+.footer-social-list-item:focus {
   background-color: var(--accent-color);
 }
 
