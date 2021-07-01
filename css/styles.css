@@ -413,6 +413,7 @@ img {
   flex-wrap: wrap;
   justify-content: left;
   margin-top: -30px;
+  margin-left: -30px;
 }
 
 .client-section-list-item {
@@ -421,15 +422,13 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-top: 30px;
-}
-
-.client-section-list-item:not(:last-child) {
-  margin-right: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 180px) / 6);
 }
 
 .client-section-list-link {
   display: block;
-  padding: 16px 32px;
+  padding: 16px 30px;
 }
 
 .client-section-list-icon {
