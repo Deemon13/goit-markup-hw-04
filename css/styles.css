@@ -99,6 +99,7 @@ img {
 .header-content-container {
   display: flex;
   align-items: center;
+  padding: 24px 0 25px;
 }
 
 .menu {
@@ -123,7 +124,6 @@ img {
   color: var(--logo-color);
   margin-right: 93px;
   display: block;
-  padding: 24px 0 25px;
 }
 
 .logo-accent {
@@ -135,7 +135,7 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 32px 0;
+  padding: 8px 0 7px;
 }
 
 .current-link {
@@ -160,7 +160,7 @@ img {
 .contact-list-email,
 .contact-list-tel {
   display: inline-flex;
-  padding: 32px 0;
+  padding: 8px 0 6px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
