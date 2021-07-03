@@ -427,6 +427,7 @@ img {
 .client-section-list-link:hover,
 .client-section-list-link:focus {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* FOOTER */
